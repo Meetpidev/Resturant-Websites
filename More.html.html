@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Reservation Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <header>
+        <div id="nav">
+            <img src="logo-png[1].png" alt="Logo">
+            <a href="index.html">Home</a>
+            <a href="Menu.html.html">Menu</a>
+            <a href="Order_Online.html.html">Order Online</a>
+            <a href="Contact_Us.html.html">Contact</a>
+            <a href="More.html.html" id="more">More</a>
+            <a href="https://www.facebook.com"><img src="R.png" alt="faceBook" style="height: 40px;"></a>
+            <a href="https://www.instagram.com"><img src="insta.png" alt="ikik" style="height: 40px;"></a>
+        </div>
+     </header>
+
+     
+        <section class = "banner" >
+           
+            <h2 style="margin-left: 90px;">BOOK YOUR TABLE NOW</h2>
+            <div class = "card-container" style="margin-right: 350px;">
+                <div class = "card-img">
+                   
+                </div>
+                
+
+                <div class = "card-content">
+                    <h3>Reservation</h3>
+                    <form>
+                        <div class = "form-row">
+                            <select name = "days">
+                                <option value = "day-select">Select Day</option>
+                                <option value = "sunday">Sunday</option>
+                                <option value = "monday">Monday</option>
+                                <option value = "tuesday">Tuesday</option>
+                                <option value = "wednesday">Wednesday</option>
+                                <option value = "thursday">Thursday</option>
+                                <option value = "friday">Friday</option>
+                                <option value = "saturday">Saturday</option>
+                            </select>
+
+                            <select name = "hours">
+                                <option value = "hour-select">Select Time</option>
+                                <option value = "10">10: 00 </option>
+                                <option value = "10">12: 00</option>
+                                <option value = "10">14: 00</option>
+                                <option value = "10">16: 00</option>
+                                <option value = "10">18: 00</option>
+                                <option value = "10">20: 00</option>
+                                <option value = "10">22: 00</option>
+                            </select>
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "text" placeholder="Full Name">
+                            <input type = "text" placeholder="Phone Number">
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "number" placeholder="How Many People?" min = "1">
+                            <input type = "submit" value = "BOOK TABLE">
+                        </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </section>
+        
+    </body>
+</html>

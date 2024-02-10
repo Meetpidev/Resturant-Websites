@@ -1,0 +1,161 @@
+.oerder-online-page {
+    height: 1200px;
+    margin: 5% 20% 0 20%;
+    background-color: snow;
+}
+
+.menu-headding {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(168, 163, 163);
+    position: sticky;
+    top: 0;
+    left: 20%;
+}
+
+.menu-cart {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(11, 11, 11);
+    font-size: 1.2rem;
+}
+
+.menu-types {
+    height: 40px;
+    width: 25%;
+    text-align: center;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+.menu-types:hover {
+    border: 3px solid black;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+
+#online-order-img1 {
+    width: 100%;
+    height: 240px;
+    background-image: url(online_order_back_img_1.jpg);
+    background-size: 1000px 300px;
+}
+
+.all-itembox1 {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.all-itembox1>div {
+    height: 160px;
+    width: 48%;
+    border: 1px solid black;
+    display: flex;
+
+}
+
+.all-itembox1>div:hover {
+    border: 2px solid black;
+    background-color: rgb(244, 240, 240);
+}
+
+.of {
+    font-size: 1.2rem;
+}
+
+#i1 {
+    background-image: url(ol1.jpg);
+}
+
+#i2 {
+    background-image: url(ol2.jpg);
+}
+
+#i3 {
+    background-image: url(ol3.jpg);
+}
+
+#i4 {
+    background-image: url(ol4.jpg);
+}
+
+#i5 {
+    background-image: url(ol5.jpg);
+}
+
+
+#online-order-img2 {
+    width: 100%;
+    height: 240px;
+    background-image: url(online_order_back_img_2.jpg);
+    background-size: 1000px 300px;
+}
+
+
+.all-itembox2 {
+    height: 410px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.all-itembox2>div {
+    height: 170px;
+    width: 48%;
+    border: 1px solid black;
+    display: flex;
+
+}
+
+.all-itembox2>div:hover {
+    border: 2px solid black;
+    background-color: rgb(244, 240, 240);
+}
+
+.of {
+    font-size: 1.2rem;
+}
+
+#i6 {
+    background-image: url(ol6.jpg);
+}
+
+#i7 {
+    background-image: url(ol7.jpg);
+}
+
+#i8 {
+    background-image: url(ol8.jpg);
+}
+
+
+.i {
+    height: 100%;
+    width: 180px;
+    padding: 3px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.boxf {
+    padding: 15px;
+    height: 100%;
+    width: 285px;
+}
